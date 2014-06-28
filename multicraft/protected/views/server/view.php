@@ -288,7 +288,7 @@ else
         $con = McBridge::get()->getConnection($model->daemon_id);
         if ($con)
             $attribs[] = array('label'=>$form->labelEx($model,'daemon_id'), 'type'=>'raw',
-                'value'=>CHtml::link($con->name, 'http://status.spartanhost.net/status', array('target'=>'_blank')));
+                'value'=>CHtml::link($con->name, 'http://status.spartanhost.net', array('target'=>'_blank')));
     }
     if (Yii::app()->user->isSuperuser() || $settings->user_players)
     {
