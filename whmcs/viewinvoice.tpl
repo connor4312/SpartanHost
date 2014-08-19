@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset={$charset}" />
     <title>{$companyname} - {* This code should be uncommented for EU companies using the sequential invoice numbering so that when unpaid it is shown as a proforma invoice {if $status eq "Paid"}*}{$LANG.invoicenumber}{*{else}{$LANG.proformainvoicenumber}{/if}*}{$invoicenum}</title>
 
-    <link href="templates/{$template}/css/invoice.css" rel="stylesheet">
+	<link href="templates/{$template}/assets/whmcs/css/invoice.css" rel="stylesheet">
 
   </head>
 
@@ -103,39 +103,39 @@
 </div>
 
 <table class="items">
-    <tr class="title text-center">
+    <tr class="title textcenter">
         <td width="70%">{$LANG.invoicesdescription}</td>
         <td width="30%">{$LANG.invoicesamount}</td>
     </tr>
 {foreach from=$invoiceitems item=item}
     <tr>
         <td>{$item.description}{if $item.taxed eq "true"} *{/if}</td>
-        <td class="text-center">{$item.amount}</td>
+        <td class="textcenter">{$item.amount}</td>
     </tr>
 {/foreach}
     <tr class="title">
         <td class="textright">{$LANG.invoicessubtotal}:</td>
-        <td class="text-center">{$subtotal}</td>
+        <td class="textcenter">{$subtotal}</td>
     </tr>
     {if $taxrate}
     <tr class="title">
         <td class="textright">{$taxrate}% {$taxname}:</td>
-        <td class="text-center">{$tax}</td>
+        <td class="textcenter">{$tax}</td>
     </tr>
     {/if}
     {if $taxrate2}
     <tr class="title">
         <td class="textright">{$taxrate2}% {$taxname2}:</td>
-        <td class="text-center">{$tax2}</td>
+        <td class="textcenter">{$tax2}</td>
     </tr>
     {/if}
     <tr class="title">
         <td class="textright">{$LANG.invoicescredit}:</td>
-        <td class="text-center">{$credit}</td>
+        <td class="textcenter">{$credit}</td>
     </tr>
     <tr class="title">
         <td class="textright">{$LANG.invoicestotal}:</td>
-        <td class="text-center">{$total}</td>
+        <td class="textcenter">{$total}</td>
     </tr>
 </table>
 
@@ -146,7 +146,7 @@
 </div>
 
 <table class="items">
-    <tr class="title text-center">
+    <tr class="title textcenter">
         <td width="30%">{$LANG.invoicestransdate}</td>
         <td width="25%">{$LANG.invoicestransgateway}</td>
         <td width="25%">{$LANG.invoicestransid}</td>
@@ -154,19 +154,19 @@
     </tr>
 {foreach from=$transactions item=transaction}
     <tr>
-        <td class="text-center">{$transaction.date}</td>
-        <td class="text-center">{$transaction.gateway}</td>
-        <td class="text-center">{$transaction.transid}</td>
-        <td class="text-center">{$transaction.amount}</td>
+        <td class="textcenter">{$transaction.date}</td>
+        <td class="textcenter">{$transaction.gateway}</td>
+        <td class="textcenter">{$transaction.transid}</td>
+        <td class="textcenter">{$transaction.amount}</td>
     </tr>
 {foreachelse}
     <tr>
-        <td class="text-center" colspan="4">{$LANG.invoicestransnonefound}</td>
+        <td class="textcenter" colspan="4">{$LANG.invoicestransnonefound}</td>
     </tr>
 {/foreach}
     <tr class="title">
         <td class="textright" colspan="3">{$LANG.invoicesbalance}:</td>
-        <td class="text-center">{$balance}</td>
+        <td class="textcenter">{$balance}</td>
     </tr>
 </table>
 
