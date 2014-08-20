@@ -2,6 +2,7 @@
 	<h1>{$LANG.navopenticket}</h1>
 </div>
 
+<div class="alert alert-info"><b>Did you know</b> you can also call! UK number: <b>02895 813535</b>. US Number (Phoenix): <b>(602) 910-5858</b>.</div>
 <p>{$LANG.supportticketsheader}</p>
 
 <div class="clearfix margin-top">
