@@ -4,7 +4,7 @@
     <meta http-equiv="content-type" content="text/html; charset={$charset}" />
     <title>{$companyname} - {* This code should be uncommented for EU companies using the sequential invoice numbering so that when unpaid it is shown as a proforma invoice {if $status eq "Paid"}*}{$LANG.invoicenumber}{*{else}{$LANG.proformainvoicenumber}{/if}*}{$invoicenum}</title>
 
-	<link href="templates/{$template}/assets/whmcs/css/invoice.css" rel="stylesheet">
+    <link href="templates/{$template}/css/invoice.css" rel="stylesheet">
 
   </head>
 
