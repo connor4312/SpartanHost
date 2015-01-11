@@ -14,32 +14,57 @@
 	<script src="templates/{$template}/js/whmcs.js"></script>
 
 	{$headoutput}
-
+	<link href="http://spartanhost.org/img/favicon.png" rel="shortcut icon" />
 	</head>
 
 	<body>
-	<!--Start of Zopim Live Chat Script-->
+{literal}<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-49048240-2', 'auto');
+  ga('send', 'pageview');
+
+</script>{/literal}
+	<!--Start of Livechatinc Script-->
 	{literal}<script type="text/javascript">
-	window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-	d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-	_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute('charset','utf-8');
-	$.src='//v2.zopim.com/?1GsTVWooV1Sx6Q4uCrt4xLs1t67Qwdma';z.t=+new Date;$.
-	type='text/javascript';e.parentNode.insertBefore($,e)})(document,'script');
-	</script>{/literal}
+var __lc = {};
+__lc.license = 3864611;
+
+(function() {
+	var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+	lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>{/literal}
+	{literal}<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41685422-1', 'spartanhost.net');
+  ga('send', 'pageview');
+
+</script>{/literal}
 {$headeroutput}
 	<div class="pagetrimmer">
 		<div class="container">
 			<nav class="main"> 
-				<a class="navbar-brand col-md-2" href="http://spartanhost.net">SpartanHost</a>
+				<a class="navbar-brand col-md-2" href="http://spartanhost.org">SpartanHost</a>
 				<div class="col-md-7">	
 					<ul class="nav navbar-nav navbar-right white bar">
-						<li><a href="http://spartanhost.net">Home</a></li>
+						<li><a href="http://spartanhost.org">Home</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Plans <b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="https://billing.spartanhost.net/cart.php?gid=3">Budget Minecraft Plans</a></li>
 								<li><a href="https://billing.spartanhost.net/cart.php?gid=1">Premium Minecraft Plans</a></li>
 								<li><a href="https://billing.spartanhost.net/cart.php?gid=8">Dedicated Server Plans</a></li>
+                                                                <li><a href="https://billing.spartanhost.net/cart.php?gid=12">KVM VPS Plans</a></li>
+                                                                <li><a href="https://billing.spartanhost.net/cart.php?gid=11">Colocation Plans</a></li>
 								<li><a href="https://billing.spartanhost.net/cart.php?gid=7">DDoS Protection Plans</a></li>
 								<li><a href="https://billing.spartanhost.net/cart.php?gid=2">Web Hosting Plans</a></li>
 							</ul>
@@ -114,6 +139,7 @@
 				</li>
 				<li><a href="submitticket.php">{$LANG.navopenticket}</a></li>
 				{if $condlinks.affiliates}<li><a href="affiliates.php">{$LANG.affiliatestitle}</a></li>{/if}
+                                <li><a href="index.php?m=sh_subdomain">Minecraft Subdomain</a></li>
 			</ul>
 
 				<ul class="nav navbar-nav navbar-right">
