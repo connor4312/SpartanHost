@@ -181,7 +181,7 @@
             <a href="http://spartanhost.net/terms">Terms of Service</a> | <a href="http://spartanhost.net/careers">Careers</a> | <a href="http://twitter.com/SpartanHost" target="_blank">Twitter</a>
         </div>
         <div class="col-md-6 text-right">
-            Copyright 2015 Spartan Host Ltd. <a href="http://vector-media.net/">Designed</a>. Powered by <a href="http://www.multicraft.org">Multicraft Control Panel</a>
+            Copyright 2015 Spartan Host Ltd. Powered by <a href="http://www.multicraft.org">Multicraft Control Panel</a>
         </div>
     </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
