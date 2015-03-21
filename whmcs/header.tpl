@@ -65,7 +65,8 @@ __lc.license = 3864611;
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=8">Dedicated Server Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=12">Seattle KVM SSD VPS Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=15">Dallas KVM Storage VPS Plans</a></li>
-								 <li><a href="https://billing.spartanhost.net/cart.php?gid=11">Colocation Plans</a></li>
+								 <li><a href="https://billing.spartanhost.net/cart.php?gid=11">Seattle Colocation Plans</a></li>
+								 <li><a href="https://billing.spartanhost.net/cart.php?gid=14">Dallas Colocation Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=7">DDoS Protection Plans</a></li>
 							     <li><a href="https://billing.spartanhost.net/cart.php?gid=2">Web Hosting Plans</a></li>
 							</ul>
