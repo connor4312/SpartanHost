@@ -38,7 +38,7 @@
     <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,400,700,300|Oswald:300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="http://spartanhost.net/css/style.css" />
     <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css" />
-
+    <link href="http://spartanhost.org/img/favicon.png" rel="shortcut icon" />
 
     <title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -54,11 +54,15 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Plans <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://billing.spartanhost.net/cart.php?gid=3">Budget Minecraft Plans</a></li>
-                            <li><a href="https://billing.spartanhost.net/cart.php?gid=1">Premium Minecraft Plans</a></li>
-                            <li><a href="https://billing.spartanhost.net/cart.php?gid=8">Dedicated Server Plans</a></li>
-                            <li><a href="https://billing.spartanhost.net/cart.php?gid=7">DDoS Protection Plans</a></li>
-                            <li><a href="https://billing.spartanhost.net/cart.php?gid=2">Web Hosting Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=3">Budget Minecraft Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=1">Premium Minecraft Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=8">Dedicated Server Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=12">Seattle KVM SSD VPS Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=15">Dallas KVM Storage VPS Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=11">Seattle Colocation Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=14">Dallas Colocation Plans</a></li>
+						    <li><a href="https://billing.spartanhost.net/cart.php?gid=7">DDoS Protection Plans</a></li>
+							<li><a href="https://billing.spartanhost.net/cart.php?gid=2">Web Hosting Plans</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
@@ -174,10 +178,10 @@
     </div> 
     <footer class="container">
         <div class="col-md-6">
-            <a href="http://spartanhost.net/terms">Terms of Service</a> | <a href="http://spartanhost.net/careers">Careers</a>
+            <a href="http://spartanhost.net/terms">Terms of Service</a> | <a href="http://spartanhost.net/careers">Careers</a> | <a href="http://twitter.com/SpartanHost" target="_blank">Twitter</a>
         </div>
         <div class="col-md-6 text-right">
-            Copyright 2013 SpartanHost. <a href="http://vector-media.net/">Designed</a>. Powered by <a href="http://www.multicraft.org">Multicraft Control Panel</a>
+            Copyright 2015 Spartan Host Ltd. <a href="http://vector-media.net/">Designed</a>. Powered by <a href="http://www.multicraft.org">Multicraft Control Panel</a>
         </div>
     </footer>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.2/js/bootstrap.min.js" type="text/javascript"></script>
