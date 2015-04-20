@@ -62,7 +62,8 @@ __lc.license = 3864611;
 							<ul class="dropdown-menu">
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=3">Budget Minecraft Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=1">Premium Minecraft Plans</a></li>
-								 <li><a href="https://billing.spartanhost.net/cart.php?gid=8">Dedicated Server Plans</a></li>
+								 <li><a href="https://billing.spartanhost.net/cart.php?gid=8">Seattle Dedicated Server Plans</a></li>
+								 <li><a href="https://billing.spartanhost.net/cart.php?gid=18">Dallas Dedicated Server Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=12">Seattle KVM SSD VPS Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=15">Dallas KVM Storage VPS Plans</a></li>
 								 <li><a href="https://billing.spartanhost.net/cart.php?gid=11">Seattle Colocation Plans</a></li>
